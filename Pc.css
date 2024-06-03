@@ -1,0 +1,16 @@
+/* 桌面设备 */
+@media only screen and (min-width: 1025px)
+{
+   /* 样式规则 */
+   body
+   {
+       margin: 0;
+   }
+
+   .myHead
+   {
+       width: auto;
+       height: 50px;
+       border-bottom: 1px solid #a0a0a0;
+   }
+}

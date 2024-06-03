@@ -1,0 +1,11 @@
+ /* 平板设备 */
+ @media only screen and (min-width: 601px) and (max-width: 1024px)
+ {
+    /* 样式规则 */
+    .myHead
+    {
+        width: auto;
+        height: 50px;
+        background-color: rgb(182, 120, 40);
+    }
+}
