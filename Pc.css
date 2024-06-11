@@ -1,35 +1,84 @@
 /* 桌面设备 */
 @media only screen and (min-width: 1025px)
 {
-   /* 样式规则 */
-   body
-   {
-       margin: 0;
-   }
+     /* 样式规则 */
+     body
+     {
+          margin: 0;
+     }
 
-   .zj
-   {
-        width: 1280px;
-        height: 50px;
-        margin: 0 auto;
-   }
+     .zj
+     {
+          width: 1280px;
+          height: 50px;
+          margin: 0 auto;
+     }
 
-   .myHead
-   {
-       width: auto;
-       height: 50px;
-       border-bottom: 1px solid #a0a0a0;
-   }
+     .myHead
+     {
+          width: auto;
+          height: 50px;
+          border-bottom: 1px solid #a0a0a0;
+     }
 
-   .maileYX
-   {
-        position: relative;
-        top: -21px;
-   }
+     .maileYX
+     {
+          position: relative;
+          top: -21px;
+     }
 
-   .textYX
-   {
-        position: relative;
-        top: -2px;
-   }
+     .textYX
+     {
+          position: relative;
+          top: -2px;
+     }
+
+     /* ===== 菜单栏样式 ===== */
+     /* 清除默认的列表样式 */
+     .vertical-menu 
+     {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 200px; /* 菜单栏的宽度 */
+          background-color: #f1f1f1;
+          height: auo; /* 高度100% */
+          overflow-x: hidden; /* 隐藏水平滚动条 */
+          float: left;
+     }
+
+     /* 样式化列表项 */
+     .vertical-menu li 
+     {
+          padding: 8px 16px;
+          border-bottom: 1px solid #bbb;
+     }
+
+     /* 样式化列表项的链接 */
+     .vertical-menu li a 
+     {
+          display: block;
+          color: black;
+          text-align: left;
+          text-decoration: none;
+     }
+
+     /* 鼠标悬停时的样式 */
+     .vertical-menu li a:hover
+     {
+          background-color: #ccc;
+     }
+
+     /* 隐藏滚动条 */
+     .vertical-menu::-webkit-scrollbar 
+     {
+          display: none;
+     }
+
+     /* 主体内容样式，以便菜单栏不会覆盖它 */
+     .Data 
+     {
+          padding-left: 10px;
+     }
+    /* ===== 菜单栏样式 ===== */
 }
